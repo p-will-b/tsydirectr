@@ -1,12 +1,7 @@
 Package: tsydirectr
 Title: tsydirectr
 Version: 0.0.1
-Authors@R: 
-    person(given = "Jo",
-           family = "Doe",
-           role = c("aut", "cre"),
-           email = "jodoe@dom.ain")
-Author: person('p-will-b', role = c('cre', 'aut'))
+Author: 'p-will-b'
 Description: An R wrapper for the Treasury Direct API.
 License: {{ License }}
 URL: https://www.github.com/p-will-b/tsydirectr
@@ -17,7 +12,7 @@ Imports:
     dplyr,
     httr,
     jsonlite,
-    purrr,
     stringr
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
